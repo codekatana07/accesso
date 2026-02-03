@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0759184A2F324A4F00884816 /* accesso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accesso.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		075918782F32582A00884816 /* accesso.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = accesso.xcodeproj; sourceTree = "<group>"; };
+		074E03352F32587800856D4F /* accesso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accesso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0759184C2F324A4F00884816 /* accesso */ = {
+		074E03372F32587800856D4F /* accesso */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = accesso;
 			sourceTree = "<group>";
@@ -20,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		075918472F324A4F00884816 /* Frameworks */ = {
+		074E03322F32587800856D4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,25 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		075918412F324A4F00884816 = {
+		074E032C2F32587800856D4F = {
 			isa = PBXGroup;
 			children = (
-				0759184C2F324A4F00884816 /* accesso */,
-				0759184B2F324A4F00884816 /* Products */,
+				074E03372F32587800856D4F /* accesso */,
+				074E03362F32587800856D4F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0759184B2F324A4F00884816 /* Products */ = {
+		074E03362F32587800856D4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0759184A2F324A4F00884816 /* accesso.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		075918792F32582A00884816 /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				074E03352F32587800856D4F /* accesso.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,70 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		075918492F324A4F00884816 /* accesso */ = {
+		074E03342F32587800856D4F /* accesso */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 075918552F324A5000884816 /* Build configuration list for PBXNativeTarget "accesso" */;
+			buildConfigurationList = 074E03402F32587900856D4F /* Build configuration list for PBXNativeTarget "accesso" */;
 			buildPhases = (
-				075918462F324A4F00884816 /* Sources */,
-				075918472F324A4F00884816 /* Frameworks */,
-				075918482F324A4F00884816 /* Resources */,
+				074E03312F32587800856D4F /* Sources */,
+				074E03322F32587800856D4F /* Frameworks */,
+				074E03332F32587800856D4F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0759184C2F324A4F00884816 /* accesso */,
+				074E03372F32587800856D4F /* accesso */,
 			);
 			name = accesso;
 			packageProductDependencies = (
 			);
 			productName = accesso;
-			productReference = 0759184A2F324A4F00884816 /* accesso.app */;
+			productReference = 074E03352F32587800856D4F /* accesso.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		075918422F324A4F00884816 /* Project object */ = {
+		074E032D2F32587800856D4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					075918492F324A4F00884816 = {
+					074E03342F32587800856D4F = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = 075918452F324A4F00884816 /* Build configuration list for PBXProject "accesso" */;
+			buildConfigurationList = 074E03302F32587800856D4F /* Build configuration list for PBXProject "accesso" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 075918412F324A4F00884816;
+			mainGroup = 074E032C2F32587800856D4F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0759184B2F324A4F00884816 /* Products */;
+			productRefGroup = 074E03362F32587800856D4F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 075918792F32582A00884816 /* Products */;
-					ProjectRef = 075918782F32582A00884816 /* accesso.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				075918492F324A4F00884816 /* accesso */,
+				074E03342F32587800856D4F /* accesso */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		075918482F324A4F00884816 /* Resources */ = {
+		074E03332F32587800856D4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		075918462F324A4F00884816 /* Sources */ = {
+		074E03312F32587800856D4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		075918532F324A5000884816 /* Debug */ = {
+		074E033E2F32587900856D4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		075918542F324A5000884816 /* Release */ = {
+		074E033F2F32587900856D4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +244,7 @@
 			};
 			name = Release;
 		};
-		075918562F324A5000884816 /* Debug */ = {
+		074E03412F32587900856D4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		075918572F324A5000884816 /* Release */ = {
+		074E03422F32587900856D4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		075918452F324A4F00884816 /* Build configuration list for PBXProject "accesso" */ = {
+		074E03302F32587800856D4F /* Build configuration list for PBXProject "accesso" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				075918532F324A5000884816 /* Debug */,
-				075918542F324A5000884816 /* Release */,
+				074E033E2F32587900856D4F /* Debug */,
+				074E033F2F32587900856D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		075918552F324A5000884816 /* Build configuration list for PBXNativeTarget "accesso" */ = {
+		074E03402F32587900856D4F /* Build configuration list for PBXNativeTarget "accesso" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				075918562F324A5000884816 /* Debug */,
-				075918572F324A5000884816 /* Release */,
+				074E03412F32587900856D4F /* Debug */,
+				074E03422F32587900856D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 075918422F324A4F00884816 /* Project object */;
+	rootObject = 074E032D2F32587800856D4F /* Project object */;
 }
