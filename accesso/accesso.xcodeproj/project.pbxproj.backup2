@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		074E034B2F327A0900856D4F /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E034A2F327A0900856D4F /* UserRole.swift */; };
+		074E034D2F327A9F00856D4F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E034C2F327A9F00856D4F /* AppState.swift */; };
 		074E03502F327B1400856D4F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E034F2F327B1400856D4F /* SplashView.swift */; };
 		074E03522F327B6E00856D4F /* RoleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E03512F327B6E00856D4F /* RoleSelectionView.swift */; };
 		074E03552F327B9100856D4F /* TeacherHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E03542F327B9100856D4F /* TeacherHomeView.swift */; };
@@ -47,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				074E034E2F327AD900856D4F /* Views */,
+				074E034C2F327A9F00856D4F /* AppState.swift */,
 				074E03492F32796A00856D4F /* Models */,
 				074E03372F32587800856D4F /* accesso */,
 				074E03362F32587800856D4F /* Products */,
@@ -176,6 +178,7 @@
 				074E034B2F327A0900856D4F /* UserRole.swift in Sources */,
 				074E03582F327BDB00856D4F /* StudentHomeView.swift in Sources */,
 				074E03552F327B9100856D4F /* TeacherHomeView.swift in Sources */,
+				074E034D2F327A9F00856D4F /* AppState.swift in Sources */,
 				074E03502F327B1400856D4F /* SplashView.swift in Sources */,
 				074E03522F327B6E00856D4F /* RoleSelectionView.swift in Sources */,
 			);

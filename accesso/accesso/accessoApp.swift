@@ -2,30 +2,18 @@
 //  accessoApp.swift
 //  accesso
 //
-//  Created by KIET55 on 03/02/26.
+//  Created by KIET55 on 04/02/26.
 //
 
-//import SwiftUI
-//
-//@main
-//struct accessoApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//        }
-//    }
-//}
 import SwiftUI
-import Foundation
 
 @main
 struct accessoApp: App {
-    @StateObject var appState = AppState()
+    @StateObject private var appState = AppState()
     
     var body: some Scene {
         WindowGroup {
-            Group {
-                
+            ZStack {
                 switch appState.currentScreen {
                 case .splash:
                     SplashView()
@@ -33,18 +21,17 @@ struct accessoApp: App {
                     RoleSelectionView()
                 case .teacherHome:
                     TeacherHomeView()
+                case .teacherEnvironmentDetail(let environment):
+                    EnvironmentDetailView(environment: environment)
                 case .studentHome:
                     StudentHomeView()
+                case .studentEnvironmentList:
+                    StudentEnvironmentListView()
+                case .studentEnvironmentDetail(let environment):
+                    StudentEnvironmentDetailView(environment: environment)
                 }
             }
             .environmentObject(appState)
-            .background(Color(.systemBackground))
         }
     }
 }
-
-
-
-
-
-

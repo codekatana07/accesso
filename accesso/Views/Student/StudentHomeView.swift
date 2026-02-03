@@ -53,7 +53,13 @@ struct StudentHomeView: View {
                 }
                 
                 HStack(spacing: 20) {
-                    DashboardButton(title: "My Environments", icon: "folder.fill")
+                    Button(action: {
+                        appState.navigateToStudentEnvironments()
+                    }) {
+                        DashboardButton(title: "My Environments", icon: "folder.fill")
+                    }
+                    .buttonStyle(.plain)
+                    
                     DashboardButton(title: "View Lectures", icon: "play.tv.fill")
                 }
                 
@@ -62,4 +68,27 @@ struct StudentHomeView: View {
             .padding(40)
         }
     }
+}
+
+struct DashboardButton: View {
+    let title: String
+    let icon: String
+    
+    var body: some View {
+        VStack(spacing: 12) {
+            Image(systemName: icon)
+                .font(.system(size: 30))
+            Text(title)
+                .fontWeight(.medium)
+        }
+        .frame(width: 160, height: 120)
+        .background(Color(.secondarySystemBackground))
+        .cornerRadius(10)
+        .shadow(radius: 2)
+    }
+}
+
+#Preview {
+    StudentHomeView()
+        .environmentObject(AppState())
 }
