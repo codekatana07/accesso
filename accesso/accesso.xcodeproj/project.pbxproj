@@ -6,8 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		074E034B2F327A0900856D4F /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E034A2F327A0900856D4F /* UserRole.swift */; };
+		074E034D2F327A9F00856D4F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E034C2F327A9F00856D4F /* AppState.swift */; };
+		074E03502F327B1400856D4F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E034F2F327B1400856D4F /* SplashView.swift */; };
+		074E03522F327B6E00856D4F /* RoleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E03512F327B6E00856D4F /* RoleSelectionView.swift */; };
+		074E03552F327B9100856D4F /* TeacherHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E03542F327B9100856D4F /* TeacherHomeView.swift */; };
+		074E03582F327BDB00856D4F /* StudentHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E03572F327BDB00856D4F /* StudentHomeView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		074E03352F32587800856D4F /* accesso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accesso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074E034A2F327A0900856D4F /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
+		074E034C2F327A9F00856D4F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState.swift"; sourceTree = "<group>"; };
+		074E034F2F327B1400856D4F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SplashView.swift"; sourceTree = "<group>"; };
+		074E03512F327B6E00856D4F /* RoleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoleSelectionView.swift"; sourceTree = "<group>"; };
+		074E03542F327B9100856D4F /* TeacherHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeacherHomeView.swift"; sourceTree = "<group>"; };
+		074E03572F327BDB00856D4F /* StudentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentHomeView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +47,9 @@
 		074E032C2F32587800856D4F = {
 			isa = PBXGroup;
 			children = (
+				074E034E2F327AD900856D4F /* Views */,
+				074E034C2F327A9F00856D4F /* AppState.swift */,
+				074E03492F32796A00856D4F /* Models */,
 				074E03372F32587800856D4F /* accesso */,
 				074E03362F32587800856D4F /* Products */,
 			);
@@ -43,6 +61,41 @@
 				074E03352F32587800856D4F /* accesso.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		074E03492F32796A00856D4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				074E034A2F327A0900856D4F /* UserRole.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		074E034E2F327AD900856D4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				074E03562F327BA000856D4F /* Student */,
+				074E034F2F327B1400856D4F /* SplashView.swift */,
+				074E03512F327B6E00856D4F /* RoleSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		074E03532F327B8300856D4F /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				074E03542F327B9100856D4F /* TeacherHomeView.swift */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		074E03562F327BA000856D4F /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				074E03572F327BDB00856D4F /* StudentHomeView.swift */,
+				074E03532F327B8300856D4F /* Teacher */,
+			);
+			path = Student;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +147,9 @@
 			);
 			mainGroup = 074E032C2F32587800856D4F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				074E03452F32746400856D4F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 074E03362F32587800856D4F /* Products */;
 			projectDirPath = "";
@@ -119,6 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074E034B2F327A0900856D4F /* UserRole.swift in Sources */,
+				074E03582F327BDB00856D4F /* StudentHomeView.swift in Sources */,
+				074E03552F327B9100856D4F /* TeacherHomeView.swift in Sources */,
+				074E034D2F327A9F00856D4F /* AppState.swift in Sources */,
+				074E03502F327B1400856D4F /* SplashView.swift in Sources */,
+				074E03522F327B6E00856D4F /* RoleSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +390,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		074E03452F32746400856D4F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 074E032D2F32587800856D4F /* Project object */;
 }
