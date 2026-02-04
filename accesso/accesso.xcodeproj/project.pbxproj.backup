@@ -12,9 +12,6 @@
 		074E03522F327B6E00856D4F /* RoleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E03512F327B6E00856D4F /* RoleSelectionView.swift */; };
 		074E03552F327B9100856D4F /* TeacherHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E03542F327B9100856D4F /* TeacherHomeView.swift */; };
 		074E03582F327BDB00856D4F /* StudentHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E03572F327BDB00856D4F /* StudentHomeView.swift */; };
-		074E03592F327BDB00856D4F /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E035A2F327BDB00856D4F /* ChatModels.swift */; };
-		074E035B2F327BDB00856D4F /* RAGService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E035C2F327BDB00856D4F /* RAGService.swift */; };
-		074E035D2F327BDB00856D4F /* RAGChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E035E2F327BDB00856D4F /* RAGChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +22,6 @@
 		074E03512F327B6E00856D4F /* RoleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionView.swift; sourceTree = "<group>"; };
 		074E03542F327B9100856D4F /* TeacherHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherHomeView.swift; sourceTree = "<group>"; };
 		074E03572F327BDB00856D4F /* StudentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeView.swift; sourceTree = "<group>"; };
-		074E035A2F327BDB00856D4F /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
-		074E035C2F327BDB00856D4F /* RAGService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAGService.swift; sourceTree = "<group>"; };
-		074E035E2F327BDB00856D4F /* RAGChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAGChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -54,7 +48,6 @@
 			children = (
 				074E034E2F327AD900856D4F /* Views */,
 				074E03492F32796A00856D4F /* Models */,
-				074E035F2F327BDB00856D4F /* Services */,
 				074E03372F32587800856D4F /* accesso */,
 				074E03362F32587800856D4F /* Products */,
 			);
@@ -72,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				074E034A2F327A0900856D4F /* UserRole.swift */,
-				074E035A2F327BDB00856D4F /* ChatModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -99,18 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				074E03572F327BDB00856D4F /* StudentHomeView.swift */,
-				074E035E2F327BDB00856D4F /* RAGChatView.swift */,
 				074E03532F327B8300856D4F /* Teacher */,
 			);
 			path = Student;
-			sourceTree = "<group>";
-		};
-		074E035F2F327BDB00856D4F /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				074E035C2F327BDB00856D4F /* RAGService.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +178,6 @@
 				074E03552F327B9100856D4F /* TeacherHomeView.swift in Sources */,
 				074E03502F327B1400856D4F /* SplashView.swift in Sources */,
 				074E03522F327B6E00856D4F /* RoleSelectionView.swift in Sources */,
-				074E03592F327BDB00856D4F /* ChatModels.swift in Sources */,
-				074E035B2F327BDB00856D4F /* RAGService.swift in Sources */,
-				074E035D2F327BDB00856D4F /* RAGChatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

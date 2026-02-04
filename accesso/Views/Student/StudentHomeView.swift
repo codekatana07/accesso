@@ -10,6 +10,7 @@ import SwiftUI
 
 struct StudentHomeView: View {
     @EnvironmentObject var appState: AppState
+    @State private var showRAGChat = false
     
     var body: some View {
         ZStack {
@@ -60,7 +61,22 @@ struct StudentHomeView: View {
                     }
                     .buttonStyle(.plain)
                     
+                    NavigationLink(isActive: $showRAGChat) {
+                        RAGChatView()
+                    } label: {
+                        Button(action: {
+                            showRAGChat = true
+                        }) {
+                            DashboardButton(title: "Ask from Notes", icon: "sparkles")
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                
+                HStack(spacing: 20) {
                     DashboardButton(title: "View Lectures", icon: "play.tv.fill")
+                    
+                    Spacer()
                 }
                 
                 Spacer()
