@@ -15,12 +15,19 @@
 		074E03592F327BDB00856D4F /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E035A2F327BDB00856D4F /* ChatModels.swift */; };
 		074E035B2F327BDB00856D4F /* RAGService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E035C2F327BDB00856D4F /* RAGService.swift */; };
 		074E035D2F327BDB00856D4F /* RAGChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E035E2F327BDB00856D4F /* RAGChatView.swift */; };
+		078C18842F32F80100F1FE77 /* PPTPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C18832F32F7FC00F1FE77 /* PPTPreviewView.swift */; };
+		078C188C2F33008200F1FE77 /* NoteFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C188B2F33007E00F1FE77 /* NoteFile.swift */; };
+		078C18902F33010E00F1FE77 /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C188F2F33010B00F1FE77 /* VideoFile.swift */; };
+		078C18972F33028000F1FE77 /* StudentNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C18962F33028000F1FE77 /* StudentNotesView.swift */; };
+		078C18992F33028B00F1FE77 /* VideoLecturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C18982F33028B00F1FE77 /* VideoLecturesView.swift */; };
+		078C18B02F330C1900F1FE77 /* S3FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C18AF2F330C1900F1FE77 /* S3FileService.swift */; };
+		078C18B22F330C6700F1FE77 /* QuickLookPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C18B12F330C6700F1FE77 /* QuickLookPreview.swift */; };
+		078C18B42F330C8100F1FE77 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C18B32F330C8100F1FE77 /* VideoPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		074E03352F32587800856D4F /* accesso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accesso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		074E034A2F327A0900856D4F /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
-		074E034C2F327A9F00856D4F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		074E034F2F327B1400856D4F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		074E03512F327B6E00856D4F /* RoleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionView.swift; sourceTree = "<group>"; };
 		074E03542F327B9100856D4F /* TeacherHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherHomeView.swift; sourceTree = "<group>"; };
@@ -28,12 +35,35 @@
 		074E035A2F327BDB00856D4F /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
 		074E035C2F327BDB00856D4F /* RAGService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAGService.swift; sourceTree = "<group>"; };
 		074E035E2F327BDB00856D4F /* RAGChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAGChatView.swift; sourceTree = "<group>"; };
+		078C18832F32F7FC00F1FE77 /* PPTPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPTPreviewView.swift; sourceTree = "<group>"; };
+		078C188B2F33007E00F1FE77 /* NoteFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFile.swift; sourceTree = "<group>"; };
+		078C188F2F33010B00F1FE77 /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
+		078C18962F33028000F1FE77 /* StudentNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentNotesView.swift; sourceTree = "<group>"; };
+		078C18982F33028B00F1FE77 /* VideoLecturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLecturesView.swift; sourceTree = "<group>"; };
+		078C18AF2F330C1900F1FE77 /* S3FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3FileService.swift; sourceTree = "<group>"; };
+		078C18B12F330C6700F1FE77 /* QuickLookPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookPreview.swift; sourceTree = "<group>"; };
+		078C18B32F330C8100F1FE77 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		074E03372F32587800856D4F /* accesso */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = accesso;
+			sourceTree = "<group>";
+		};
+		078C18912F33023900F1FE77 /* New Folder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "New Folder";
+			sourceTree = "<group>";
+		};
+		078C18932F33025E00F1FE77 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		078C18A02F3305CA00F1FE77 /* assetsFor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = assetsFor;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -57,6 +87,7 @@
 				074E035F2F327BDB00856D4F /* Services */,
 				074E03372F32587800856D4F /* accesso */,
 				074E03362F32587800856D4F /* Products */,
+				078C18912F33023900F1FE77 /* New Folder */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +102,8 @@
 		074E03492F32796A00856D4F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				078C188F2F33010B00F1FE77 /* VideoFile.swift */,
+				078C188B2F33007E00F1FE77 /* NoteFile.swift */,
 				074E034A2F327A0900856D4F /* UserRole.swift */,
 				074E035A2F327BDB00856D4F /* ChatModels.swift */,
 			);
@@ -80,9 +113,11 @@
 		074E034E2F327AD900856D4F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				078C18A02F3305CA00F1FE77 /* assetsFor */,
 				074E03562F327BA000856D4F /* Student */,
 				074E034F2F327B1400856D4F /* SplashView.swift */,
 				074E03512F327B6E00856D4F /* RoleSelectionView.swift */,
+				078C18932F33025E00F1FE77 /* Shared */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +133,11 @@
 		074E03562F327BA000856D4F /* Student */ = {
 			isa = PBXGroup;
 			children = (
+				078C18B32F330C8100F1FE77 /* VideoPlayerView.swift */,
+				078C18982F33028B00F1FE77 /* VideoLecturesView.swift */,
+				078C18B12F330C6700F1FE77 /* QuickLookPreview.swift */,
+				078C18962F33028000F1FE77 /* StudentNotesView.swift */,
+				078C18832F32F7FC00F1FE77 /* PPTPreviewView.swift */,
 				074E03572F327BDB00856D4F /* StudentHomeView.swift */,
 				074E035E2F327BDB00856D4F /* RAGChatView.swift */,
 				074E03532F327B8300856D4F /* Teacher */,
@@ -108,6 +148,7 @@
 		074E035F2F327BDB00856D4F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				078C18AF2F330C1900F1FE77 /* S3FileService.swift */,
 				074E035C2F327BDB00856D4F /* RAGService.swift */,
 			);
 			path = Services;
@@ -130,6 +171,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				074E03372F32587800856D4F /* accesso */,
+				078C18912F33023900F1FE77 /* New Folder */,
+				078C18932F33025E00F1FE77 /* Shared */,
+				078C18A02F3305CA00F1FE77 /* assetsFor */,
 			);
 			name = accesso;
 			packageProductDependencies = (
@@ -190,11 +234,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078C18842F32F80100F1FE77 /* PPTPreviewView.swift in Sources */,
+				078C18992F33028B00F1FE77 /* VideoLecturesView.swift in Sources */,
 				074E034B2F327A0900856D4F /* UserRole.swift in Sources */,
+				078C18972F33028000F1FE77 /* StudentNotesView.swift in Sources */,
 				074E03582F327BDB00856D4F /* StudentHomeView.swift in Sources */,
+				078C18B22F330C6700F1FE77 /* QuickLookPreview.swift in Sources */,
 				074E03552F327B9100856D4F /* TeacherHomeView.swift in Sources */,
 				074E03502F327B1400856D4F /* SplashView.swift in Sources */,
+				078C188C2F33008200F1FE77 /* NoteFile.swift in Sources */,
 				074E03522F327B6E00856D4F /* RoleSelectionView.swift in Sources */,
+				078C18B42F330C8100F1FE77 /* VideoPlayerView.swift in Sources */,
+				078C18902F33010E00F1FE77 /* VideoFile.swift in Sources */,
+				078C18B02F330C1900F1FE77 /* S3FileService.swift in Sources */,
 				074E03592F327BDB00856D4F /* ChatModels.swift in Sources */,
 				074E035B2F327BDB00856D4F /* RAGService.swift in Sources */,
 				074E035D2F327BDB00856D4F /* RAGChatView.swift in Sources */,
@@ -330,6 +382,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55463N8AFL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -361,6 +414,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55463N8AFL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
